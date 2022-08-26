@@ -1,0 +1,237 @@
+@media only screen and (min-width: 600px) {
+  #picture img {
+    width: 100%;
+    height: 890px !important;
+  }
+}
+
+@media screen and (max-height: 600px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+}
+@keyframes scale {
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes fade-in {
+  100% {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+#picture img {
+  position: relative;
+  width: 100%;
+  height: 650px;
+  display: block;
+  margin: auto;
+}
+.Btitle {
+  font-size: 26px;
+  cursor: pointer;
+  color: white;
+  margin-left: 30px;
+}
+#category {
+  font-size: 18px;
+  margin-top: 24px;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(21 100 185 / 70%);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 19px;
+  color: #bfcee1;
+  display: block;
+  transition: 0.3s;
+}
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.box {
+  width: 700px;
+  height: 50px;
+}
+.yellow {
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  display: none;
+  font-size: 50px;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h2 {
+  font-family: "Montserrat Medium";
+  max-width: 50ch;
+  text-align: center;
+  transform: scale(0.94);
+  animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+  position: absolute;
+  left: 99px;
+  top: 332px;
+  color: #00297b;
+}
+h1 {
+  font-family: "Montserrat Medium";
+  max-width: 45ch;
+  text-align: center;
+  transform: scale(0.94);
+  animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+  position: absolute;
+  left: 35px;
+  top: 268px;
+  color: #072f5a;
+}
+span {
+  display: inline-block;
+  opacity: 0;
+  filter: blur(4px);
+}
+span:nth-child(1) {
+  animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.01, 0, 0.5, 0);
+}
+span:nth-child(2) {
+  animation: fade-in 0.8s 0.2s forwards cubic-bezier(0.01, 0, 0.5, 0);
+}
+span:nth-child(3) {
+  animation: fade-in 0.8s 0.3s forwards cubic-bezier(0.01, 0, 0.5, 0);
+}
+span:nth-child(4) {
+  animation: fade-in 0.8s 0.4s forwards cubic-bezier(0.01, 0, 0.5, 0);
+}
+span:nth-child(5) {
+  animation: fade-in 0.8s 0.5s forwards cubic-bezier(0.01, 0, 0.5, 0);
+}
+span:nth-child(6) {
+  animation: fade-in 0.8s 0.6s forwards cubic-bezier(0.01, 0, 0.5, 0);
+}
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+.kutu1 {
+  width: 380px;
+  height: 280px;
+  padding: 10px;
+  border: 2px black;
+  margin: 0px;
+  background-color: #eab30e;
+}
+.kutu2 {
+  width: 380px;
+  height: 300px;
+  padding: 10px;
+  border: 2px black;
+  margin: 0px;
+  background-color: #700693;
+}
+.kutu3 {
+  width: 380px;
+  height: 330px;
+  padding: 10px;
+  border: 2px black;
+  margin: 0px;
+  background-color: #17a2b8;
+}
+.kutu4 {
+  width: 380px;
+  height: 300px;
+  padding: 10px;
+  border: 2px black;
+  margin: 0px;
+  background-color: #4c5359;
+}
+.cardbottom{
+  width: 440px;
+  height: 520px;
+  padding: 10px;
+  border-radius: 12px;
+  margin: 0px;
+  background-color: #78838d;
+  margin-top: 85px;
+  margin-right: 670px;
+}
+.cardtop{
+  width: 440px;
+  height: 520px;
+  border-radius: 12px;
+  margin: 0px;
+  background-color:white;
+  margin-left:15px;
+  margin-top:-7px;
+}
+#pic img{
+  width: 440px;
+  height: 520px;
+  border-radius: 12px;
+}
+#görünür{
+  margin-top: -250px;
+  margin-left: 550px;
+  font-size: 30px;
+  font-style: italic;
+  font-family: "Brush Script MT", cursive;
+}
+#graf{
+  margin-top: -5px;
+  margin-left: 550px;
+  font-size: 20px;
+  font-style: italic;
+  
+}
+#container{
+  background-color: brown;
+  width: 100%;
+  height: 300px;
+  margin-top: 300px;
+}
+#container p{
+  text-align: center;
+  font-size: 40px;
+  margin-top: 80px;
+  color:cornsilk;
+}
+#container button{
+  margin-left: 44%;
+  padding: 12px;
+  border-radius: 12px;
+  padding-left: 38px;
+  padding-right: 38px;
+}
+}
+#footer{
+  border-top: 1px solid blue;
+  padding-top: 60px;
+}
